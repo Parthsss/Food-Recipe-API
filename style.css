@@ -1,0 +1,236 @@
+/* Your previous imports */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F1F1F1;
+  }
+  
+  #logo {
+    width: 20vw;
+    height: 25vh;
+    margin-left: 40vw;
+  }
+  
+  img {
+    width: 10vw;
+    height: 18.6vh;
+  }
+  
+  footer {
+    background-color: #BD475F;
+    width: 100%;
+    height: 10vh;
+    color: antiquewhite;
+    padding-top: 1.8vh;
+    padding-bottom: 1.3vh;
+  }
+  
+  #foot {
+    color: #ffefef;
+    margin-left: 45vw;
+    font-size: 1em
+
+  }
+  
+  .top {
+    background-image: url("https://s3-alpha-sig.figma.com/img/95f3/1875/c1b6f502635aa3fa1f086f0551cda229?Expires=1703462400&Signature=ZPAhtUT0jTaVMpqzj7a0s6Jg8mLiBqmym3XENO987vwWiKd87RQP3dNWPe56H6bJ68aPiQT7B6lesqPljsnBKh9AyjtGSVhTfB38~xV5eCT1LO1S-IvJy3dvNJzkRkbbmrnrhC0LEL8QzGQvdBeg~jNEdV6op~dseWzxBa7pQnm5BckqYFdq~I7okD7-udSLKRonBHnmBS1prptg6rZgGXczCqUqtkLd5mDd7sLt8SwTu9ZCt5FEnuqwDZssVuKNviTAO7NAT-kaUC9b2WeipXImw85mtwWJr6T8Z2-z9ol~sXxqfFdRsi0XG-ZiG7MfrsMt1pE8SJwJllD4bL76Bg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-size: 100% 100%;
+  }
+  
+  .container {
+    height: 90vh;
+    padding-top: 8vh;
+  }
+  
+  h1 {
+    margin-left: 11.5vw;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8vh;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  h2 {
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4vh;
+    margin-top: 2vh;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 11.5vw;
+  }
+  
+  #para {
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 2vh;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 11.5vw;
+    font-size: 1.2em;
+  }
+
+  #search-cont {
+    background-color: #BD475F;
+    height: 16vh;
+  }
+  
+  #search {
+    position: absolute;
+    height: 3.8vh;
+    width: 25vw;
+    margin-top: 5vh;
+    margin-left: 40vw;
+    border-radius: 0.3vw;
+    border: 0.12vw solid #FFF;
+    background-color: transparent;
+  }
+  
+  input::placeholder {
+    color: antiquewhite;
+  }
+  
+  input {
+    color: antiquewhite;
+    font-size: 1.5vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h4 {
+    position: absolute;
+    margin-top: 5.5vh;
+    left: 29vw;
+    color: white;
+  }
+  
+  #buttons {
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    margin-top: 5vh;
+    margin-left: 70vw;
+    border-radius: 0.3vw;
+    background: #16174c;
+    color: #F1F1F1;
+  }
+  
+  #thanks {
+    margin-top: 6vh;
+    text-align: center;
+  }
+  
+  #random-meal {
+    margin-left: 40vw;
+    margin-top: 3vh;
+    height: 46vh;
+    width: 18vw;
+    border: 0.05vw solid black;
+    background-color: #F1C4DA;
+    border-radius: 1vw;
+  }
+
+  
+  .meal-div {
+    display: flex;
+    font-size: 0.9em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5vh;
+    text-align: center;
+    background-color: #F1C4DA;
+    height: 45vh;
+    width: 18vw;
+    border-radius: 1vw;
+    padding: 1vh;
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .meal-images {
+    border: 0.1vw solid black;
+    height: 28vh;
+    border-radius: 0.6vw;
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 0.6vw;
+  }
+  
+  hr {
+    height: 0.5vh;
+    width: 85vw;
+    border-radius: 1vw;
+    margin: 2vh auto;
+    background-color: #121332;
+  }
+  
+  #random {
+    color: #000000;
+    margin-left: 13vw;
+    font-family: 'NTR', sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  
+  #popup-image {
+    position: relative;
+    left: 33%;
+    height: 20vh;
+    width: 15vw;
+    display: block;
+    align-items: center;
+    border-radius: 1vw;
+  }
+  
+  #pop-up {
+    display: none;
+    position: absolute;
+    top: 50%;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .ingredients-box {
+    margin: auto;
+    border-radius: 2vw;
+    padding: 1vw;
+    text-align: center;
+    box-shadow: 1vw 2vw 3.6vw #7e7b7b;
+    height: auto;
+    width: 60vw;
+    background-color: rgb(226, 152, 152);
+    border: 0.1vw solid black;
+  }
+  
+  #search-result-container {
+    display: none;
+  }
+  
+  h5 {
+    font-size: 2vh;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 1vh;
+  }
+  
+  #search-results-container {
+    margin-top: 3vh;
+  }
+  
+  #search-results {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 2vh;
+    padding: 9vh;
+    margin-left: 12vh;
+  }
