@@ -1,4 +1,12 @@
-/* Your previous imports */
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Merriweather&family=Montserrat:wght@300&family=Nunito:wght@900&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Jost&family=Merriweather&family=Montserrat:wght@300&family=Nunito:wght@900&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400&family=Jost&family=Merriweather&family=Montserrat:wght@300&family=Nunito:wght@900&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400&family=Jost&family=Merriweather&family=Montserrat:wght@300&family=NTR&family=Nunito:wght@900&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400&family=Jost&family=Merriweather&family=Montserrat:wght@300&family=Mukta:wght@500&family=NTR&family=Nunito:wght@900&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -200,6 +208,7 @@
     height: 100vh;
     width: 100vw;
   }
+
   
   .ingredients-box {
     margin: auto;
@@ -212,6 +221,8 @@
     background-color: rgb(226, 152, 152);
     border: 0.1vw solid black;
   }
+
+
   
   #search-result-container {
     display: none;
@@ -235,3 +246,117 @@
     margin-left: 12vh;
     
   }
+
+  .meal-div:hover{
+    transition: transform .2s ease;
+    transform: scale(1.2);
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+    #logo {
+      width: 800vw;
+      height: 25vh;
+      margin-left: 10vw;
+    }
+  
+    img {
+      width: 40vw;
+      height: auto;
+    }
+  
+    footer {
+      height: auto;
+      padding: 1vh;
+    }
+  
+    #foot {
+      margin-left: 10vw;
+    }
+  
+    .container {
+      padding-top: 2vh;
+    }
+  
+    h1 {
+      margin-left: 5vw;
+      font-size: 3em;
+      line-height: 6vh;
+    }
+  
+    h2 {
+      font-size: 3vh;
+      line-height: 3vh;
+      margin-left: 5vw;
+    }
+  
+    #para {
+      line-height: 2.5vh;
+      margin-left: 5vw;
+      font-size: 1em;
+    }
+  
+    #search {
+      width: 70vw;
+      margin-left: 15vw;
+    }
+  
+    #buttons {
+      margin-left: 60vw;
+    }
+  
+    #random-meal {
+      margin-left: 5vw;
+      width: 90vw;
+    }
+  
+    .meal-div {
+      height: auto;
+      width: 90vw;
+      margin: 1vh 0.5vw;
+    }
+  
+    .meal-images {
+      height: 15vh;
+    }
+  
+    hr {
+      width: 90vw;
+      margin: 2vh 5vw;
+    }
+  
+    #random {
+      margin-left: 5vw;
+      font-size: 2.5vh;
+    }
+  
+    #popup-image {
+      left: 20%;
+      height: 15vh;
+      width: 60vw;
+    }
+  
+    .ingredients-box {
+      width: 80vw;
+    }
+  
+    #search-result-container {
+      display: none;
+    }
+  
+    h5 {
+      font-size: 2.5vh;
+    }
+  
+    #search-results-container {
+      margin-top: 2vh;
+    }
+  
+    #search-results {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 3vh;
+      margin-left: 5vw;
+    }
+  }
+  
