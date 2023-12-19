@@ -3,8 +3,8 @@
     <head>
         <title>QuickBiteHub</title>
         <link rel="stylesheet" href="style.css">
-
-        
+        <link rel="icon" href="./Assets/Screenshot 2023-12-18 094812.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         
@@ -15,40 +15,52 @@
 
         <h2>Need recipe ideas?</h2>
 
-        <p>Welcome to QuickBiteHub - your ultimate recipe destination! <br>
+        <p id="para">Welcome to QuickBiteHub - your ultimate recipe destination! <br>
 Explore a variety of mouthwatering recipes, easily search for your favorites, 
-<br> and get personalized recommendations. <br> Whether you're a cooking pro or a beginner, find inspiration for every meal. <br> Join our community and make every dish a culinary adventure! 
-Bon appétit! HELLO </b></p>
+<br> and get personalized recommendations. <br> Whether you're a cooking pro or a beginner, find inspiration for every meal. <br>Join our community and make every dish a culinary adventure! 
+Bon appétit! </p>
             <br>
-            <!-- <div class="button store"><b>Search Your favourite  recipe</b></a></div> -->
+           
     
       </div>
-
-
-
-
-      
-
         <div id="search-cont">
-            <input type="text" id="search" placeholder="Enter item you are looking for">
+            <div id="search-elem">
+            <input type="search" id="search" placeholder="Enter item you are looking for">
+
+
+            <h4>Search by Cuisine</h4>
+
+            <button type="button " id="buttons">Search</button>
+
+        </div>
         </div>
 
-  
-
-        
-
-  
+        <div id="random-container">
+          <h2 id="random">Personalised recommendation for you:  </h2>
+          <div id="random-meal"></div>
+      </div>
+      <hr>
+      
+<div id="search-results-container">
+  <h2>Search Results</h2>
+  <div id="search-results" class="meal-grid"></div>
+</div>
+        <div id="pop-up">
+        </div>
         <h3 id="thanks"> Thankyou For Visiting Us</h3>
+        <br>
 
-        <br><br>
+        <script src="./script.js"></script>
 
         <footer>
-            <p>Made by Parth Shah <br>
-                ©QuickBiteHub
+          
+            <p id="foot">Made by Parth Shah <br>
+              ‎ ‎ ‎ ©QuickBiteHub
             </p>
         </footer>
       </div>
     
+      
 
 
 
