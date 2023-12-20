@@ -156,6 +156,17 @@
       border: 0.05vw solid black;
       background-color: #F1C4DA;
       border-radius: 1vw;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
 
     
@@ -249,9 +260,6 @@
       background-color: rgb(226, 152, 152);
       border: 0.1vw solid black;
     }
-
-
-    
     #search-result-container {
       display: none;
     }
@@ -272,15 +280,20 @@
       gap: 2vh;
       padding: 9vh;
       margin-left: 12vh;
-      
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    #search-results-container:hover #search-results {
+      opacity: 1;
+      transform: translateY(0);
     }
 
     .meal-div:hover{
       transition: transform .2s ease;
       transform: scale(1.2);
     }
-
-
 
     @media only screen and (max-width: 500px) {
       #logo {
