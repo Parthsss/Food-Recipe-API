@@ -1,6 +1,6 @@
 ﻿# Food-Recipe-API
 
-@QuickBiteHub
+**@QuickBiteHub**
 
 Best food Recipes.
 Welcome to QuickBiteHub - your ultimate recipe destination!
@@ -14,19 +14,21 @@ Random Meal: www.themealdb.com/api/json/v1/1/random.php
 
 Fetch Meal: www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
 
-References:
+**References:**
 Fonts: fonts.google.com/
+
 Logo: www.logoai.com/
+
 Modal Reference: www.w3schools.com/w3css/w3css_modal.asp
 
-Design Link: 
+**Design Link:**  
 https://www.figma.com/file/p73XXhUK6tCZ1NEpypMtNG/Recipe-Website?type=design&node-id=0%3A1&mode=design&t=9KmAHHE9wUE6TPUg-1
 
-Deployed Link: 
+**Deployed Link:** 
 https://quickbitehub.netlify.app/
 
 
-Website ScreenShots
+**Website ScreenShots:**
 
 ![Screenshot 2023-12-20 095400](https://github.com/Parthsss/Food-Recipe-API/assets/144241690/81844116-fa08-4bcc-83d8-c4d835a1b3c8)
 ![Screenshot 2023-12-20 095441](https://github.com/Parthsss/Food-Recipe-API/assets/144241690/a266f1e7-eb35-4e30-9e23-4708be67b66a)
