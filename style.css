@@ -295,6 +295,9 @@
       transform: scale(1.2);
     }
 
+
+    /* ONLY RESPONSIVE FOR DESKTOP AND TABLET */
+
     @media only screen and (max-width: 500px) {
       #logo {
         width: 8000vw;
