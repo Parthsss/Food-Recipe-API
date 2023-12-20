@@ -127,6 +127,13 @@
     border-radius: 0.3vw;
     background: #16174c;
     color: #F1F1F1;
+
+  }
+
+  #buttons:hover{
+    background-color: #000000;
+    transition: transform .1s ease;
+    transform: scale(1.1);
   }
   
   #thanks {
@@ -256,7 +263,7 @@
 
   @media only screen and (max-width: 500px) {
     #logo {
-      width: 800vw;
+      width: 8000vw;
       height: 25vh;
       margin-left: 10vw;
     }
@@ -308,7 +315,7 @@
   
     #random-meal {
       margin-left: 5vw;
-      width: 90vw;
+      width: 900px;
     }
   
     .meal-div {

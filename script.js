@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
    
 
     
-    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchInput}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${searchInput}`)
       .then(response => response.json())
       .then(data => {
        
