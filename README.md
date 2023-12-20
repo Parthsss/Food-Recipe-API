@@ -15,6 +15,10 @@ Random Meal: www.themealdb.com/api/json/v1/1/random.php
 Fetch Meal: www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
 
 **References:**
+colour: coolers.co
+
+background: remove.bg
+
 Fonts: fonts.google.com/
 
 Logo: www.logoai.com/
